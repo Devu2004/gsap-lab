@@ -1,15 +1,29 @@
 gsap.to(".box1",{
-    x:1000,
+    x:1200,
     duration:3,
     rotate:360,
-    delay:2,
-    borderRadius:"50%",
-    backgroundColor:"crimson"
+    delay:5,
+    backgroundColor:"crimson",
+    repeat:-1,
+    yoyo:.2,
 })
-gsap.from(".box2",{
-    x:1000,
+let tl = gsap.timeline()
+tl.to(".box2",{
+    x:1200,
+    duration:2,
+    rotate:360,
+    delay:1,
+})
+tl.to(".box3",{
+    x:1200,
     duration:3,
     rotate:360,
-    delay:2,
-    borderRadius:'0',
+    delay:1,
 })
+tl.to(".box4",{
+    x:1200,
+    duration:3,
+    rotate:360,
+    delay:1,
+})
+// yoyo property acts like yoyo that we played 
