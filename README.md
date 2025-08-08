@@ -1,23 +1,31 @@
 # ⚡ GSAP Lab
 
-Welcome to **GSAP Lab** — a personal space where I learn, practice, and build cool animations using the **GreenSock Animation Platform (GSAP)**.
+Welcome to **GSAP Lab** — my personal space to learn, practice, and experiment with the **GreenSock Animation Platform (GSAP)**.
 
-This repo will include multiple small projects and demos as I explore GSAP's features, from basic motion to advanced timeline-based animations.
+This repository contains multiple small projects and demos, starting from the basics and gradually moving towards advanced animations.
 
 ---
 
-## 📁 Folders
+## 📁 Projects
 
 ### 🔹 [basic-box-animations/](./basic-box-animations/)
-> First practice project using GSAP to animate basic boxes.  
-Covers movement, scaling, opacity, and timeline animations.
+A beginner project that animates simple boxes using GSAP.  
+**Covers:** Movement, scaling, opacity, and timeline-based animations.
+
+### 🔹 [basic-text-animations/](./basic-text-animations/)
+A beginner project that focuses on animating text elements.  
+**Covers:** Fade-in effects and smooth entrance animations.
 
 ---
 
 ## 🎯 Objective
 
-- Learn the syntax and power of GSAP
-- Build small hands-on projects for better understanding
-- Level up frontend animation skills
+- Understand GSAP syntax and core concepts
+- Practice both element and text animations
+- Build a collection of reusable animation snippets
+- Improve UI/UX through smooth motion effects
 
-Stay tuned as I keep adding more folders with new experiments! 💡
+---
+
+💡 **Note:** More animation experiments will be added as I continue learning. Stay tuned! 🚀
+
