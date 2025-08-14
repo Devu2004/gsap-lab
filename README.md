@@ -4,7 +4,7 @@ Welcome to **GSAP Lab** — my personal space to learn, practice, and experiment
 
 This repository contains multiple small projects and demos, starting from the basics and gradually moving towards advanced animations.
 
----
+--- 
 
 ## 📁 Projects
 
