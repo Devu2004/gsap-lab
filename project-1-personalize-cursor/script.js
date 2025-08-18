@@ -11,8 +11,17 @@ main.addEventListener('mousemove',(dets)=>{
     })
 })
 image.addEventListener("mouseenter",function(){
+    cursor.innerHTML = "view more"
     gsap.to(cursor,{
-        scale:2
+        scale:3,
+        border:".5px solid white",
+        background:"#ffffffd7"
     })
-
+})
+image.addEventListener("mouseleave",function(){
+    gsap.to(cursor,{
+        scale:1,
+        border:"",
+        background:"white"
+    })
 })
