@@ -19,6 +19,7 @@ image.addEventListener("mouseenter",function(){
     })
 })
 image.addEventListener("mouseleave",function(){
+cursor.innerHTML = ""
     gsap.to(cursor,{
         scale:1,
         border:"",
